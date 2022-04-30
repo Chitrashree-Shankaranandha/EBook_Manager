@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/ivPosterImage"
+        android:layout_width="383dp"
+        android:layout_height="269dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPosterImage"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="-40dp"
+        android:text="The Dark Knight"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/bookrating"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookTitle"
+        android:layout_marginBottom="-40dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/ratingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="User Rating "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/userRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3.24"
+            android:stepSize="0.1"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bookAuthor"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookrating"
+        android:layout_marginBottom="-40dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/authorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author Name "
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"  />
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bookGenre"
+
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookAuthor"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-40dp">
+
+        <TextView
+            android:id="@+id/genreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Genre "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/genreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookAuthor"
+        android:layout_marginBottom="-105dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+        </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignBottom="@+id/bookGenre"
+            android:layout_marginBottom="-120dp"
+            android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/commentBtn"
+                        android:layout_width="92dp"
+                        android:layout_height="66dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/post_comment"
+                        android:visibility="visible" />
+
+                    <ImageButton
+                        android:id="@+id/wishlistBtn"
+                        android:layout_width="92dp"
+                        android:layout_height="66dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/like"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+</RelativeLayout>
