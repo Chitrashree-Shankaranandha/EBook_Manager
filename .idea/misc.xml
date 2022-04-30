@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_send.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/input_bg.xml" value="0.1575" />
+        <entry key="app/src/main/res/font/aldrich.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/font/montserrat.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/layout/activity_comment.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/animated_splash_screen.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/detail_activity.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_abc.xml" value="0.2857789855072464" />
+        <entry key="app/src/main/res/layout/fragment_about_us.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_inbox.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_logout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_rating.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_sorted.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_support.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_top_e_books.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_voted.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_wishlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_comment.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_navigation_header.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/wishlist_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/wishlist_view.xml" value="0.14628623188405798" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

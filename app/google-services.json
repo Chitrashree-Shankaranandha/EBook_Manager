@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "680380182404",
+    "project_id": "navigationdrawerexample-e5fc6",
+    "storage_bucket": "navigationdrawerexample-e5fc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680380182404:android:c374a9ff709525b32ff7d1",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawerexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680380182404-ol9v9opv0huld1kgbsu8m5mp03ib706c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsAqtoNhsmY19t0v5tOePAlrdB7_ye9E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680380182404-ol9v9opv0huld1kgbsu8m5mp03ib706c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
