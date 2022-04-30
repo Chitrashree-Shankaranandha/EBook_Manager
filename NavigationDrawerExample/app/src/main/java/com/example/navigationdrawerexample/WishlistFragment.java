@@ -77,7 +77,8 @@ public class WishlistFragment extends Fragment  {
         // reference for our database.
         lvWishList = (ListView) view.findViewById(R.id.listView);
 //        databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://databaseauth-19365-default-rtdb.firebaseio.com/Wishlist");
-        databaseReference = FirebaseDatabase.getInstance().getReference("Wishlist");
+//        databaseReference = FirebaseDatabase.getInstance().getReference("Wishlist");
+        databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://navigationdrawerexample-e5fc6-default-rtdb.firebaseio.com/WishList");
 
         getdata();
     }
